@@ -6,7 +6,7 @@ import numpy as np
 import sklearn
 print(sklearn.__version__)
 
-model = pickle.load(open('model1.pkl', 'rb'))
+model = pickle.load(open('model2.pkl', 'rb'))
 
 app = Flask(__name__)
 
